@@ -1,0 +1,48 @@
+.character {
+    background-color: white;
+    
+}
+
+.weapon {
+    background-color: slategrey;
+
+}
+
+.room {
+    background-color: lightblue;
+    
+}
+
+.btn {
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ 
+}
+
+div, span, img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.solution {
+    background-color: white;
+    width: fit-content;
+    border: 1px solid;
+    border-color: black;
+    display:table;
+    margin:0 auto;
+}
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mario Pest Control</title>
+    <link rel="stylesheet" href="TSP1035.css" </head>
+    <header>
+        <h1>Mario's Pest Control</h1>
+    </header>
+
+    <body>
+        <hr />
+        <form name="mario">
+            <div class="pests">
+                <div class="card">
+                    <img src="goomba.png" />
+                    <div class="container">
+                        <div class="coin">
+                            <p>5</p>
+                            <img src="Star_Coin.png" class="star" />
+                        </div>
+                        <p>How many Goombas?</p>
+                        <input type="number" placeholder="#" min="0" value="0" name="goomba" />
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="bobomb.png" />
+                    <div class="container">
+                        <div class="coin">
+                            <p>7</p>
+                            <img src="Star_Coin.png" class="star" />
+                        </div>
+                        <p>How many Bob-ombs?</p>
+                        <input type="number" min="0" value="0" name="bobomb" />
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="cheep.png" />
+                    <div class="container">
+                        <div class="coin">
+                            <p>11</p>
+                            <img src="Star_Coin.png" class="star" />
+                        </div>
+                        <p>How many Cheep-Cheeps?</p>
+                        <input type="number" placeholder="#" min="0" value="0" name="cheep" />
+                    </div>
+                </div>
+            </div>
+            <div class="totalCoins" id="totalCoins">
+                <button id="total"><img src="Star_Coin.png" class="star" /></button>
+                <h3 id="totalGoomba"></h3>
+                <h3 id="totalBobomb"></h3>
+                <h3 id="totalCheep"></h3>
+                <h4 id="totCoins"></h4>
+
+            </div>
+        </form>
+        <hr />
+
+        <script src="TSP1035.js"></script>
+    </body>
+    <footer>
+        <!-- email website physical address -->
+        <div>Mario@mariospestcontrol.com</div>
+        <div>
+            Mario's Pest Control<br /> 4600 150th Avenue<br /> Northeast Redmond, WA 98052
+        </div>
+        <div>www.mariospestcontrol.com</div>
+        <audio controls="controls "><source src="mario.mp3 " type="audio/mpeg "  /></audio>
+    </footer>
+
+</html>

@@ -1,0 +1,150 @@
+{
+    "menu": [{
+            "appetizer": [{
+                    "name": "Cheesy Garlic Pull-Apart Bread",
+                    "ingredients": [
+                        "1 large baguette",
+                        "1 stick butter, melted",
+                        "6 cloves garlic, minced",
+                        "2 tbsp.Freshly Chopped Parsley",
+                        "kosher salt",
+                        "Freshly ground black pepper",
+                        "1 c.shredded mozzarella",
+                        "  c.shredded fontina "
+                    ],
+                    "description": "All we want in life is bread and cheese and this is the perfect way to get both. It is the ultimate tear and share appetizer that is amazing for any party or you know... just when you want your dose of garlic bread. You can serve it all by itself but you can also prepare a dipping sauce."
+                },
+                {
+                    "name": "Jalapeño Cheese Crisps",
+                    "ingredients": [
+                        "4 slices bacon",
+                        "1 c. finely shredded Parmesan",
+                        "1/2 c. shredded cheddar (preferably aged)",
+                        "1 jalapeño, sliced thinly",
+                        "Freshly ground black pepper"
+                    ],
+                    "description": "Our three favorite flavors: spicy, cheesy, and... bacon-y."
+                }
+            ]
+        },
+        {
+            "cold sandwiches": [{
+                    "name": "Cranberry-Walnut Chicken Salad Sandwich",
+                    "ingredients": [
+                        "1 / 2 cup mayonnaise",
+                        "2 tablespoons honey Dijon mustard",
+                        "1 / 4 teaspoon pepper",
+                        "2 cups cubed rotisserie chicken",
+                        "1 cup shredded Swiss cheese",
+                        "1 / 2 cup chopped celery",
+                        "1 / 2 cup dried cranberries",
+                        "1 / 4 cup chopped walnuts",
+                        "1 / 2 teaspoon dried parsley flakes",
+                        "8 lettuce leaves",
+                        "16 slices pumpernickel bread"
+                    ],
+                    "description": "simple yet special cranberry walnut chicken salad sandwich"
+                },
+                {
+                    "name": "Garden-Style Club Sandwich",
+                    "ingredients": [
+                        "4 slices whole wheat bread, toasted",
+                        "2 Tbsp. KRAFT Mayo with Olive Oil",
+                        "2 large slices tomato",
+                        "1/4 cup sliced cucumbers",
+                        "2 lettuce leaves",
+                        "12 slices OSCAR MAYER Natural Slow Roasted Turkey Breast",
+                        "4 slices cooked OSCAR MAYER Natural Smoked Uncured Bacon"
+                    ],
+                    "description": " This Garden-Style Club Sandwich includes crunchy cucumbers, sliced tomatoes, turkey and bacon."
+                }
+            ]
+        },
+        {
+            "hot sandwiches": [{
+                    "name": "Grilled Cheese Sandwich",
+                    "ingredients": [
+                        "4 slices white bread",
+                        "3 tablespoons butter (divided)",
+                        "2 slices Cheddar cheese"
+                    ],
+                    "description": "The most iconic grilled cheese; a sandwich no one can turn down."
+                },
+                {
+                    "name": "Tuna Melt",
+                    "ingredients": [
+                        "1 tomato sliced",
+                        "2 english muffins halved",
+                        "2 ounces cheddar cheese",
+                        "6 ounces white flaked tuna in water drained",
+                        "1 stalk celery finely diced",
+                        "1 green onion sliced",
+                        "⅓ cup mayonnaise",
+                        "1 teaspoon dijon",
+                        "½ teaspoon lemon juice",
+                        "salt & pepper to taste"
+                    ],
+                    "description": "This simple, tasty sandwich always sparks memories of mom’s home cooking, and maybe that’s why 'tuna melts my heart.'"
+                }
+            ]
+        },
+        {
+            "desserts": [{
+                    "name": "Lemon meringue pie",
+                    "ingredients": [
+
+                        "500g Scottish shortbread biscuits",
+                        "100g salted butter, softened",
+                        "LEMON CURD",
+                        "1 titanium-strength gelatine leaf",
+                        "3 egg yolks",
+                        "395g can condensed milk",
+                        "100ml lemon juice",
+                        "Finely grated zest of 1 lemon",
+                        "1/4 tsp salt",
+                        "3 eggwhites",
+                        "100g caster sugar",
+                        "2 tbs lemon juice",
+                        "1/2 tsp vanilla extract"
+                    ],
+                    "description": "A delicious lemon meringue pie"
+                },
+                {
+                    "name": "Rice Pudding",
+                    "ingredients": [
+                        "1L (4 cups) milk",
+                        "Pared zest of 1 orange, plus juice of 1/2 orange",
+                        "1 cinnamon quill",
+                        "140g arborio rice",
+                        "1 1/4 cups (275g) raw caster sugar",
+                        "6 figs, quartered",
+                        "2/3 cup (110g) raisins",
+                        "200ml red wine, such as rioja",
+                        "1 star anise"
+                    ],
+                    "description": "These decadent and creamy Spanish desserts are punctuated with sumptuous fruits, aromatics and nuts, making them the perfect end to any good meal."
+                }
+            ]
+        },
+        {
+            "drinks": [{
+                    "name": "Coke",
+                    "ingredients": [
+                        "Coke",
+                        "ice"
+                    ],
+                    "description": "A nice chilled coke"
+                },
+                {
+                    "name": "Rum and Coke",
+                    "ingredients": [
+                        "rum",
+                        "Coke",
+                        "ice"
+                    ],
+                    "description": "A classic rum and coke.  Liquid courage!"
+                }
+            ]
+        }
+    ]
+}

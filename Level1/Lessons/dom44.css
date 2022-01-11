@@ -1,0 +1,46 @@
+.title {
+    color: rgb(255, 0, 0);
+}
+
+.another {
+    background-color:lightblue;
+}
+
+.new-class {
+    text-align: center;
+}
+
+#head2 {
+    background-color: black;
+}
+
+.test1 {
+    color: silver;
+}
+
+#head3 {
+    color: orange
+}
+
+.test2 {
+    text-align: right;
+    background-color: navy
+}
+
+#p1 {
+    color: yellow;
+}
+
+.test3 {
+    text-align: center;
+    background-color:dodgerblue;
+}
+
+#head4 {
+    color: yellow;
+}
+
+.test4 {
+    text-align: left;
+    background-color:red;
+}

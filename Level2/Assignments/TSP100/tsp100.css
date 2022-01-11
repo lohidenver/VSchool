@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    background-color: dodgerblue;
+    color: white;
+}
+
+#addResult {
+    background-color: rgb(225, 225, 225);
+}
+
+#subResult {
+    background-color: rgb(150, 150, 150);
+}
+
+#multResult {
+    background-color: rgb(100, 100, 100);
+}
+
+form {
+    padding: 20px;
+}
+
+button {
+    width: 200px;
+    background-color: rgb(254, 221, 150);
+}
+
+input {
+    background-color: rgb(254, 243, 219);
+}
+
+header {
+    background-color: dodgerblue;
+}
+
+body {
+    background-color: blanchedalmond
+}
