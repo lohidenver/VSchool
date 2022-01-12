@@ -1,19 +1,6 @@
 console.log("connected")
 
-function sortedOfAge(arr) {
-
-    arr.filter(function(age) {
-        const age = arr.age;
-        return ageP > 18;
-    })
-
-    return ageResult
-
-}
-
-console.log(sortedOfAge(peopleArray));
-
-
+////////////////////////////////variables////////////////////////////////
 
 var peopleArray = [{
         firstName: "Sarah",
@@ -51,3 +38,39 @@ var peopleArray = [{
         age: 82
     }
 ]
+
+////////////////////////////////Functions////////////////////////////////
+
+
+function sortedOfAge(arr) {
+    const ageResult = arr.filter(function(ageArr) {
+        if (ageArr.age > 18) {
+
+            return ageArr;
+        }
+    })
+
+    const lastNameSorted = ageResult.sort(function(a, b) {
+        if (a.lastName < b.lastName) {
+            return -1;
+        } else if (a.lastName === b.lastName) {
+            return 0;
+        } else {
+            return 1;
+        }
+    })
+
+    const newArr = [];
+
+    lastNameSorted.forEach(function(str) {
+        str = `<li>${str.firstName} ${str.lastName} is ${str.age}</li>`;
+        newArr.push(str);
+
+    })
+
+    return newArr
+
+
+}
+
+console.log(sortedOfAge(peopleArray));
