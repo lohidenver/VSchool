@@ -1,0 +1,159 @@
+@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Baskerville:400,400italic);
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    /* background-attachment: scroll; */
+    background-image: url(huntington.jpeg);
+    background-position: 0 0, 0 0, 0px -25px, 0 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 300px;
+    display: flex;
+}
+
+.container {
+    position: relative;
+}
+
+.header1 {
+    text-align: center;
+    height: 300px;
+    position: relative;
+    top: 25%;
+    bottom: 25%;
+    margin-left: 100px;
+    display: flex;
+}
+
+#header-title {
+    margin-top: 0;
+}
+
+#header-logo {
+    height: 150px;
+    margin-left: 100px;
+}
+
+.header2 {
+    text-align: center;
+    height: 300px;
+    position: relative;
+    top: 25%;
+    bottom: 25%;
+    margin-left: 50px;
+    display: flex;
+    color: white;
+}
+
+header h1 {
+    color: white !important;
+    text-align: left;
+    font-size: 48px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+header h2 {
+    color: rgb(188, 188, 188) !important;
+    text-align: left;
+}
+
+.intro3 {
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.intro3 a:hover,
+.intro3 a:focus {
+    z-index: 2;
+    color: #fff;
+    background: #3d8a9f;
+    text-decoration: none;
+}
+
+.designs4 {
+    background-color: rgba(169, 215, 188, 0.5);
+    width: 20%;
+    margin: 0 auto;
+}
+
+.participation-benefits5 {
+    background-color: rgba(138, 188, 159, 0.5);
+}
+
+.site-links6 {
+    background-color: rgba(138, 188, 159, 0.229);
+}
+
+.requirements7 {
+    background-color: white;
+}
+
+.requirements7 a {
+    color: lightblue;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+    text-decoration: none;
+}
+
+.requirements a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
+.space8 {
+    background-color: rgba(169, 215, 188, 0.5)
+}
+
+.author9 {
+    background-image: url(koi.jpeg);
+    background-size: cover;
+}
+
+.icons10 {
+    background-color: #134337;
+}
+
+p {
+    margin-top: 0;
+    text-align: justify;
+}
+
+a {
+    color: #325050;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #052d28;
+}
+
+
+/* a:hover,
+a:focus {
+    color: #01c6fc;
+    text-decoration: underline;
+} */
+
+body {
+    color: #325050;
+    font-family: 'Libre Baskerville', sans-serif;
+    display: flex;
+}
+
+em {
+    color: rgb(188, 188, 188)
+}
+
+div {
+    padding: 10px;
+}

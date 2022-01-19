@@ -1,0 +1,172 @@
+    body {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        background: var(--navy);
+        min-height: 100vh;
+    }
+    
+    .title {
+        text-align: center;
+        font-size: 1.5em;
+        padding: 2rem 2rem;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1000px;
+    }
+    
+    .title h1 {
+        color: white;
+        font-weight: 100;
+        margin-bottom: 2rem;
+    }
+    
+    .newTaskForm {
+        background-color: rgb(143, 39, 39);
+        display: flex;
+    }
+    
+    #todos {
+        color: rgb(76, 0, 101);
+    }
+    
+     :root {
+        --dark: #374151;
+        --darker: #1F2937;
+        --darkest: #111827;
+        --gray: gray;
+        --light: #EEE;
+        --blue: dodgerblue;
+        --navy: navy;
+    }
+    
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        font-family: 'Julius Sans One', sans-serif;
+    }
+    
+    input,
+    button {
+        /* appearance: none; */
+        border: none;
+        outline: none;
+        background: white;
+    }
+    
+    .fields {
+        flex: 1 1 0%;
+        background-color: white;
+        padding: 1rem;
+        border-radius: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 2rem;
+        color: var(--light);
+        font-size: 1rem;
+        color: black
+    }
+    
+    #newTaskForm ::placeholder {
+        color: rgb(255, 0, 0);
+        opacity: 1;
+    }
+    
+    #newSubmit {
+        background-color: red;
+        color: white;
+    }
+    
+    #newSubmit:hover {
+        opacity: .75;
+    }
+    
+    #newSubmit:active {
+        opacity: .6;
+    }
+    
+    main {
+        flex: 1 1 0%;
+        max-width: 800px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .task-list h2 {
+        margin-bottom: 2rem;
+        text-align: center;
+        text-decoration: underline;
+    }
+    
+    #todoList .task {
+        display: flex;
+        justify-content: space-between;
+        background-color: lightblue;
+        padding: 1rem;
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    #todoList .task .content .text {
+        color: rgb(0, 0, 0);
+        font-size: 24px;
+        width: 100%;
+        display: block;
+        transition: 500ms;
+    }
+    
+    #todoList input {
+        background-color: lightblue;
+        size: 90;
+    }
+    
+    #todoList .task .content .text:not(:read-only) {
+        color: green;
+    }
+    
+    #todoList .task .actions {
+        display: flex;
+        margin: 0 -.5rem;
+    }
+    
+    .task .actions button {
+        cursor: pointer;
+        margin: 0;
+        font-size: 16px;
+        font-weight: 100;
+        border-radius: 1rem;
+    }
+    
+    .task .actions button:hover {
+        opacity: .75;
+    }
+    
+    .task .actions button:active {
+        opacity: .6;
+    }
+    
+    .task .actions .edit {
+        background-color: yellow;
+    }
+    
+    .task .actions .delete {
+        background-color: red;
+    }
+    
+    .task .actions .status {
+        padding: 0.5rem
+    }
+    
+    input[type="checkbox"] {
+        -ms-transform: scale(2);
+        /* IE */
+        -moz-transform: scale(2);
+        /* FF */
+        -webkit-transform: scale(2);
+        /* Safari and Chrome */
+        -o-transform: scale(2);
+        /* Opera */
+        transform: scale(2);
+        padding: 10px;
+        margin-right: 1rem;
+        margin-top: .5rem;
+    }
