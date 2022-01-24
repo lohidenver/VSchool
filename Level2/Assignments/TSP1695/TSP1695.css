@@ -170,3 +170,7 @@
         margin-right: 1rem;
         margin-top: .5rem;
     }
+    
+    .text {
+        border-radius: 1rem;
+    }
