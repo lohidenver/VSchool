@@ -1,14 +1,25 @@
 import React from "react";
+import picture from "../images/x.jpg";
+import icon from "../images/Icon.png";
+import linked from "../images/linked.png";
 
 export default function Info() {
   return (
     <div>
-      <img src="../images/x.png" className="headshot" alt="" />
-      <h3 className="user-name"> Dave Roberts </h3>{" "}
-      <h4 className="user-title"> Web Developer </h4>{" "}
-      <h5 className="user-web" href="#">
+      <img src={picture} className="headshot" alt="" />
+      <h1 className="user-name"> Dave Roberts </h1>{" "}
+      <h2 className="user-title"> Web Developer </h2>{" "}
+      <h3 className="user-web" href="#">
         glitchinthematri.x{" "}
-      </h5>{" "}
+      </h3>{" "}
+      <div>
+        <button className="email-button">
+          <img src={icon} alt=""></img>Email
+        </button>
+        <button className="linkedin-button">
+          <img src={linked} alt=""></img>LinkedIn
+        </button>
+      </div>
     </div>
   );
 }
