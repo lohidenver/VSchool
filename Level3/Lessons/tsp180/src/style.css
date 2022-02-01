@@ -3,6 +3,10 @@ body {
     background-color: #23252c;
 }
 
+html {
+    width: 550px;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -10,32 +14,50 @@ body {
 .card {
     border-radius: 10px;
     margin: 44px 117px;
-    /* background-color: #1a1b21; */
+    background-color: #1a1b21;
+    width: 318px;
 }
 
 #root {
     color: white;
-    font-size: 72px;
 }
 
 .headshot {
     width: 318px;
     height: 318px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .user-name {
+    font-family: Inter;
+    font-style: normal;
     font-weight: bold;
     font-size: 25px;
     line-height: 30px;
     text-align: center;
-    color: #fff;
 }
 
 .user-title {
-    background-color: #f3bf99;
+    font-style: normal;
+    font-weight: normal;
     font-size: 12.8px;
     line-height: 15px;
     text-align: center;
+    color: #f3bf99;
+    margin-top: -15px;
+}
+
+.user-web {
+    text-align: center;
+    font-size: 10px;
+}
+
+.actions {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
 }
 
 .email-button {
@@ -47,9 +69,6 @@ body {
     position: absolute;
     width: 115px;
     height: 34px;
-    left: 151px;
-    top: 468px;
-    /* white */
     background: #ffffff;
     /* gray/300 */
     border: 1px solid #d1d5db;
@@ -57,6 +76,7 @@ body {
     /* shadow/sm */
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
+    left: 151px;
 }
 
 .linkedin-button {
@@ -69,17 +89,39 @@ body {
     width: 115px;
     height: 34px;
     left: 283px;
-    top: 468px;
+    /* top: 468px; */
     background: #5093e2;
     /* shadow/sm */
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
+    color: #fff;
+}
+
+.about-section {
+    margin-top: 50px;
+    width: 242.71px;
+    margin-left: 36px;
+}
+
+.interests-section {
+    width: 242.71px;
+    margin-left: 36px;
 }
 
 .footer-icons {
     display: flex;
     text-align: center;
-    justify-content: space-between;
+    justify-content: center;
+    padding: 20px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.footer-icons img {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
     background: #161619;
     border-radius: 0px 0px 10px 10px;
 }

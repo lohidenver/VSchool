@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Interests() {
   return (
-    <div>
+    <div className="interests-section">
       <h1 className="interests-header">Interests</h1>
       <p>
         He was an expert but not in a discipline that anyone could fully
