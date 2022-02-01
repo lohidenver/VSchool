@@ -118,10 +118,11 @@ function deleteItem(id) {
     console.log(id);
     axios
         .delete(API + id)
-        .then((res) => console.log(res.data))
+        .then((res) => {
+            console.log(res.data)
+            getAll()
+        })
         .catch((err) => console.log(err));
-    clearAll();
-    getAll();
 }
 
 function taskComplete(id, completed) {
@@ -155,9 +156,9 @@ const todoForm = document.newTaskForm;
 
 todoForm.addEventListener("submit", (e) => {
     e.preventDefault();
-    clearAll();
+
     createItem(); //replace with createTodo
-    getAll();
+
 });
 
 getAll();

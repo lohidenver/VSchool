@@ -1,0 +1,19 @@
+.nav-items {
+    list-style: none;
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav li {
+    padding: 10px;
+}
+
+.react-logo {
+    height: 150px;
+    width: 50px;
+}

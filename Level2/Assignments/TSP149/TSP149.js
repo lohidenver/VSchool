@@ -44,9 +44,8 @@ console.log(returnFirst(["dog", "wolf", "by", "family"]));
 const favoriteActivities = ["magnets", "snowboarding", "philanthropy", "janitor work", "eating"];
 
 function returnFavorites(arr) {
-    let firstFav = arr[0];
-    let secondFav = arr[1];
-    let thirdFav = arr[2];
+    let [firstFav, secondFav, thirdFav] = arr
+
 
     let result = `My top three favorite activities are ${firstFav}, ${secondFav}, and ${thirdFav} `;
     console.log(result);

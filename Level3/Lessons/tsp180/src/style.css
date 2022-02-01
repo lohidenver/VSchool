@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    background-color: #23252c;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    border-radius: 10px;
+    margin: 44px 117px;
+}
+
+#root {
+    color: white;
+    font-size: 72px;
+}
+
+.headshot {
+    width: 318px;
+    height: 318px;
+}
