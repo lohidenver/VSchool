@@ -12,7 +12,7 @@ export default function Footer() {
         <img src={facebook} alt="test" />
         <img src={instagram} alt="test" />
         <img src={github} alt="test" />
-      </div>
+      </div>{" "}
     </div>
   );
 }
