@@ -1,0 +1,32 @@
+.nav-title {
+    background-image: url(../images/laptopdesk.jpeg);
+    background-repeat: no-repeat;
+    filter: grayscale(80%);
+    height: 400px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: #fff;
+    height: 532px;
+}
+
+.title {
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+h1 {
+    font-size: 96px;
+    margin-bottom: 0px;
+}
+
+span {
+    font-size: 30px;
+}

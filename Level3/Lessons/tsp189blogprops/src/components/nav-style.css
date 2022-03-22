@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+nav {
+    color: rgb(255, 255, 255);
+    padding: 0.5em 15%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff00;
+    width: 100%;
+    height: 66px;
+}
+
+.home:hover {
+    color: lightgray;
+    cursor: pointer;
+}
+
+h4 {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+h4:hover {
+    color: lightgray;
+}
+
+.home {
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
