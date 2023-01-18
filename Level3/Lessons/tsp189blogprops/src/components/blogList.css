@@ -59,9 +59,9 @@ button:hover {
 .fa {
     font-size: 60px;
     padding: 30px;
-    color: black;
+    color: red;
 }
 
 .fa:hover {
-    color: rgb(73, 136, 162);
+    color: rgb(162, 73, 73);
 }

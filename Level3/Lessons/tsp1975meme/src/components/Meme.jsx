@@ -1,4 +1,5 @@
 import React from "react";
+import GeneratedMemes from "./GeneratedMemes";
 import memesData from "../memesData";
 
 export default function Meme() {
@@ -7,7 +8,7 @@ export default function Meme() {
   const [meme, setMeme] = React.useState({
     topText: "",
     bottomText: "",
-    randomImage: "https://via.placeholder.com/800",
+    randomImage: getRandomImage(),
   });
 
   const [allMemeImages, setAllMemeImages] = React.useState(memesData);
