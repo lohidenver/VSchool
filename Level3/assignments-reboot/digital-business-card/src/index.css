@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    background-color: #ffffff;
+    background-color: #23252C;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: rgb(56, 56, 56);
+}
+
+.Card {
+    width: 317px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.ProfilePicture {
+    height: 317px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ProfilePicture img {
+    width: 275px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.ProfilePicture img:hover {
+    transform: translate(1px, 1px);
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.Main {
+    height: 399px;
+    background-color: #F5F5F5;
+    padding: 10px;
+}
+
+.Main .top-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Main .top-main button {
+    width: 115px;
+    height: 34px;
+    margin: 10px;
+}
+
+.Main .top-main button a {
+    text-decoration: none;
+    color: #23252C
+}
+
+.Main .top-main button:hover {
+    transform: translate(1px, 1px);
+}
+
+.Main .top-main .links #linked-in {
+    background-color: #5093E2;
+    color: #fff;
+    border-radius: 3px;
+    border: none !important;
+}
+
+.Main .top-main .links #linked-in a {
+    color: #fff;
+}
+
+.Main .top-main .links #email {
+    border-radius: 3px;
+    color: #23252C;
+}
+
+.Footer {
+    height: 64px;
+    background-color: #D5D4D8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer a {
+    margin-right: 10px;
+}
+
+.Footer a img {
+    border-radius: 50%;
+}
+
+.Footer a img:hover {
+    opacity: 70%;
+    transform: translate(1px, 1px);
+}
