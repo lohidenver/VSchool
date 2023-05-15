@@ -1,0 +1,13 @@
+.nav-links ul {
+    display: flex;
+    list-style: none;
+    padding: 20px;
+}
+
+.nav-links a,
+.nav-links a:visited,
+.nav-links a:active {
+    color: inherit;
+    margin: 20px;
+    text-decoration: none;
+}

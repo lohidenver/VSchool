@@ -1,0 +1,14 @@
+.projects {
+    min-height: 100vh;
+    height: 100%;
+    background-color: rgb(27, 30, 45);
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-text {}
+
+.project-cards {}

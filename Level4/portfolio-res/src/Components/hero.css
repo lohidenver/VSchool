@@ -1,0 +1,70 @@
+.hero {
+    min-height: 100vh;
+    height: 100%;
+    background-color: rgb(12, 17, 35);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* overflow-y: scroll; */
+}
+
+.hero-content {
+    position: relative;
+    /* top: 100px; */
+    padding: 100px 50px 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.hero-content .profile-picture {
+    width: 100%;
+}
+
+.hero-content .profile-picture img {
+    scale: 75%;
+    width: 100%;
+    height: auto;
+}
+
+.hero-content .hero-text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-left: 2px solid aqua;
+    padding: 20px;
+}
+
+.hero-content .hero-text-content * {
+    margin-bottom: 20px;
+}
+
+.hero-content .hero-text-content h2 {
+    font-size: 48px;
+}
+
+.hero-content .hero-text-content strong {
+    color: aqua;
+}
+
+.hero-content .hero-text-content button {
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    width: 150px;
+}
+
+@media (max-width: 1000px) {
+    .hero-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%
+    }
+    .hero-content .hero-text-content {
+        border: none;
+    }
+}

@@ -1,0 +1,13 @@
+.contact {
+    min-height: 100vh;
+    height: 100%;
+    background-color: rgb(26, 34, 65);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-text {
+    position: relative;
+    top: 100px;
+}

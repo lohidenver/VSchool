@@ -1,0 +1,65 @@
+.about {
+    min-height: 100vh;
+    height: 100%;
+    background-color: rgb(26, 34, 65);
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* overflow-y: scroll; */
+    position: relative;
+}
+
+.about-title {
+    position: relative;
+    padding: 100px 50px 0px 50px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.about-content {
+    padding: 0px 50px;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    width: 100%;
+}
+
+.about-content strong {
+    color: aqua
+}
+
+.about-text-content {
+    position: relative;
+    top: 100px;
+}
+
+.about-content .technical {
+    padding: 20px 20px;
+}
+
+.about-content .technical * {
+    margin-bottom: 20px;
+}
+
+.about-content .personal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-left: 2px solid aqua;
+    padding: 20px 20px;
+}
+
+.about-content .personal * {
+    margin-bottom: 20px;
+}
+
+.about-content .personal img {
+    scale: 75%;
+    width: 100%;
+    height: auto;
+}
