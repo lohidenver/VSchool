@@ -1,0 +1,40 @@
+.hero {
+    height: 100vh;
+    background-color: #343541;
+    color: black;
+    width: 100vw;
+    position: relative;
+    top: 100px
+}
+
+.hero-text {
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 100%
+}
+
+.hero-content p,
+h2,
+ul {
+    margin-top: 50px;
+}
+
+h2 {
+    border-bottom: 1px solid orange !important;
+    width: 25vw !important;
+}
+
+.hero-text span {
+    color: orange;
+}
+
+.hero-list ul {}
+
+.hero-list ul li {
+    /* list-style-type: circle; */
+}

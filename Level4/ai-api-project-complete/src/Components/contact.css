@@ -1,0 +1,12 @@
+.contact {
+    height: 100vh;
+    background-color: rebeccapurple;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-text {
+    position: relative;
+    top: 100px;
+}
