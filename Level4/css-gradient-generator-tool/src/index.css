@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 233, 240);
+}
+
+.container {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+    width: 90%;
+    align-items: center;
+}
+
+.container-title {
+    height: 100px;
+    width: 100%;
+    border: 1px solid #000;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(220, 242, 250)
+}
+
+.container-content {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+    height: 100%;
+    width: 100%;
+}
+
+.generator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.generator input {
+    width: 50px
+}
+
+.display {
+    height: 40vh;
+    width: 100%;
+    border: 1px solid #000;
+}
+
+.color1,
+.color2,
+.angle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+}
+
+.angle {
+    height: 25px;
+}
+
+textarea {
+    margin-top: 20px;
+    white-space: pre-line;
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.text-to-copy button {
+    margin: 10px;
+    padding: 10px;
+}
