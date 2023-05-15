@@ -1,0 +1,37 @@
+.card {
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-title {
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    max-width: 400px;
+}
+
+.description {
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.action-btns button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none
+}
